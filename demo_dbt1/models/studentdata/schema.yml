@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: studentdata
+    description: "etl testing for table"
+    #database: studentdata
+    schema: studentdata
+    tables:
+      - name: std
+        columns:
+          - name: SNO
+            tests:
+              - unique
+              - not_null

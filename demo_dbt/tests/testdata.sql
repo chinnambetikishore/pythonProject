@@ -1,0 +1,1 @@
+select * from {{ref('studentdatastd')}} group by college having count(*) >1

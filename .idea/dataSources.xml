@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Snowflake - @KISHORE123" uuid="6c5699a5-e716-4ede-9002-9601b7a28e15">
+      <driver-ref>snowflake</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://KISHORE123:443</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
