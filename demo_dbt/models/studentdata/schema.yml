@@ -5,6 +5,12 @@ sources:
     description: '{{ doc("table_events") }}'
     #database: studentdata
     schema: studentdata
+
+    freshness: # default freshness
+      warn_after: { count: 10, period: minute }
+      error_after: { count: 20, period: minute }
+    loaded_at_field: SNO
+
     tables:
       - name: std
         columns:
